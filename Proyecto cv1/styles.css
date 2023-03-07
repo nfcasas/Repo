@@ -10,8 +10,9 @@
   /* Estilo de la clase header (encabezado) */
   .header {
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
+    font-size: 1.5vw;
   }
   
   /* estilo de la barra de navegacion */
@@ -46,20 +47,22 @@
   .column.a {
     width: 25%;
     font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 1.5vw;
+    margin-bottom: 25px;
+    overflow: auto;
   }
   
   /* Estilo columna b */
   .column.b {
-    width: 50%;
-    font-size: 17px;
-    margin-bottom: 10px;	
+    width: 75%;
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+    overflow: auto;	
   }
 /* estilo del pie de pagina */
 .footer {
   	background-color: #f1f1f1;
-  	padding: 20px;
+  	padding: 5px;
   	text-align: center;
 	position:fixed;
 	bottom:0;
